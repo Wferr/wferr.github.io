@@ -1,0 +1,6 @@
+MineHubStrap TODO;
+1.Finish Landing page
+2.Make Uptime Page using Pingdom API using animated bars and messages.
+3.Make email list.
+4.Make donation List.
+5.Who's online Player Heads
