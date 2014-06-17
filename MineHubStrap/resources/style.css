@@ -48,6 +48,11 @@
 	color:#CDD3D8;
 	}
 	
+	.sru:hover #srutext {
+	color:#CDD3D8;
+	text-decoration:underline;
+	}
+		
 	.sruactive {
 	background-color:rgba(0,0,0,0.3);
 	padding-left:7px;
@@ -55,4 +60,5 @@
 	padding-top:7px;
 	padding-bottom:7px
 	}
+	
 	
