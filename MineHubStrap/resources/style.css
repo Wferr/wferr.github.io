@@ -13,10 +13,6 @@
 		z-index: -1;
 	}
   
-	.navbar a.navbar-brand {
-		padding: 1px 15px 1px; 
-	}
-  
 	.blur {
 		background-color:rgba(0,0,0,0.5);
 		padding-left:7px;
