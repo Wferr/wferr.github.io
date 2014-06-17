@@ -4,3 +4,12 @@ MineHubStrap TODO;
 3.Make email list.
 4.Make donation List.
 5.Who's online Player Heads
+
+
+REAL DEEP TODO 
+
+Figure out how to make all the pages reference a single file for the status bar instead of haveing to paste it in each file.
+make some nice smooth animations
+get beter background
+add blog ability
+add base pages
