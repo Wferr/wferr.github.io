@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- HEAD IS ALL THE SAME ACROSS PAGES -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MineHub</title>
+	
+	<link rel="stylesheet" type="text/css" href="resources/style.css">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,63 +20,62 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  
-  <style>
-  
-	body {
-		font-family: 'Oswald';
-	}
-	
-	.bg {
-		background: url('resources/bg1.jpg');
-		position: fixed;
-		width: 100%;
-		height: 100%;
-		bottom: 0;
-		left: 0;
-		z-index: -1;
-	}
-  
-  
-	.blur {
-		background-color:rgba(0,0,0,0.5);
-		padding-left:7px;
-		padding-right:7px;
-		padding-top:7px;
-		padding-bottom:7px
-	}
-
-	.blur2 {
-		-webkit-filter: blur(7px);
-		-moz-filter: blur(15px);
-		-o-filter: blur(15px);
-		-ms-filter: blur(15px);
-		filter: blur(15px);
-	}
-
-	#bluricons {
-		color: white;
-		
-	}
-	
-	#shadow {
-	text-shadow: 2px 2px 2px #aaa'
-	}
-	
-	.sru {
-	color:white;
-	}
-	
-	.sru:hover {
-	color:#CDD3D8;
-	}
-	
-  	</style>
+<!-- UPDATE HEAD ACCORDING TO base/head.html -->
   
 	<body>
-	
-	<br>
-	<br>
+		<!-- NAVBAR SECTION START -->
+		
+  	<div class = "navbar navbar-default navbar-fixed-top">
+    	<div class = "container">
+
+      	<a style = 'font-size 40px' href = "index.html" class = "navbar-brand"> <img src="resources/icon48.jpg"> MineHub</a>
+
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+	  
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+        
+			</button>
+
+      	<div class = "collapse navbar-collapse navHeaderCollapse">
+      	
+        <ul class = "nav navbar-nav navbar-right">
+
+          <li class = "active"><a href = "#">Home</a></li>
+          <li><a href = "#">Server</a></li>          
+		  <li><a href = "#">Donations</a></li>
+		  
+		    <li class = "dropdown">
+            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">S.R.U <span class = "glyphicon glyphicon-chevron-down"></span></a>
+            <ul class = "dropdown-menu">
+              <li><a href = "speed.html">Speed</a></li>
+              <li><a href = "reliability.html">Reliability</a></li>
+              <li><a href = "uptime.html">Uptime</a></li>
+            </ul>
+          </li>
+		  
+          <li class = "dropdown">
+            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">SocalMedia <span class = "glyphicon glyphicon-chevron-down"></span></a>
+            <ul class = "dropdown-menu">
+              <li><a href = "https://twitter.com/MineHubCO">Twitter</a></li>
+              <li><a href = "#">FaceBook</a></li>
+              <li><a href = "https://soundcloud.com/Wferr">SoundCloud</a></li>
+              <li><a href = "#">Google+</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  	<!-- NAVBAR SECTION END -->
  
 	<div class = "bg"></div>
 
@@ -99,7 +101,7 @@
 	
 	<div id = "bluricons" class = "row">
 	
-		<a class = "sru" href = "#">
+		<a class = "sru" href = "speed.html">
 			<div class = "col-lg-2 col-lg-offset-2">
 				<div class = "text-center blur">
 					<h1><span class = "glyphicon glyphicons-lg glyphicon-fire"></span><h1>
@@ -108,7 +110,7 @@
 			</div>
 		</a>
 		
-		<a class = "sru" href = "#">
+		<a class = "sru" href = "reliability.html">
 			<div class = "col-lg-2 col-lg-offset-1">
 				<div class = "text-center blur">
 					<h1><span class = "glyphicon glyphicons-lg glyphicon-hdd"></span><h1>
@@ -117,9 +119,9 @@
 			</div>
 		</a>
 		
-		<a class = "sru" href = "#">
+		<a style = "color:#CDD3D8" class = "sru" href = "#">
 			<div class = "col-lg-2 col-lg-offset-1">
-				<div class = "text-center blur">
+				<div class = "text-center sruactive">
 					<h1><span class = "glyphicon glyphicons-lg glyphicon-off active"></span><h1>
 					<h2>Uptime</h2>
 				</div>
