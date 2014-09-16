@@ -1,0 +1,16 @@
+body {
+	background: url(bg/0.jpg);
+    background-repeat: repeat;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+    }
+#navbar {
+	font-size: 3vw;
+	font-family: 'Lobster', sans-serif;
+	color: white;
+	shadow;
+	padding-left: 70%;
+	padding-top: 0px;
+	background-color: grey;
+	}
+	
