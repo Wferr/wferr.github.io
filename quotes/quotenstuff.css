@@ -4,13 +4,18 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
     }
-#navbar {
+h1.navbar {
 	font-size: 3vw;
 	font-family: 'Lobster', sans-serif;
 	color: white;
-	shadow;
+	padding-left: 70%;
+	margin-top: 0px;
+	background-color: grey;
+	}
+p.subnavbar {
+	font-family: 'Lobster', sans-serif;
+	color: white;
 	padding-left: 70%;
 	padding-top: 0px;
 	background-color: grey;
 	}
-	
