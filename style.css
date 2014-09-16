@@ -4,11 +4,13 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	text-align:center;
+	color: white;
+	text-shadow: 4px 2px 0px black;
 	}
 h1 {
 	font-size: 3.0vw;
-	color: white;
-	text-align: center;
-	text-shadow: 4px 2px 0px black;
 	margin-top: 20%;
+	}
+h2 {
+	font-size: 2vw;	
 	}
