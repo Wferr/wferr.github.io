@@ -1,20 +1,17 @@
 body {
 	background: url(bg.jpg);
 	background-repeat: repeat;
+	}
+#Hheadding {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	text-align: center;
 	color: white;
 	text-shadow: 4px 2px 0px black;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%)
+	text-align: center;
 	}
-h1 {
+#Hheadding h1{
 	font-size: 3.0vw;
 	}
-h2 {
+#Hheadding h2 {
 	font-size: 2vw;	
 	}
