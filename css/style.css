@@ -10,10 +10,6 @@ body {
 .navbar-custom .navbar-nav > li > a {
     color:#40566D;
 }
-.navbar-custom .navbar-nav > .highlight {
-    color: #030F1C;
-    background-color:transparent;
-}
 #Hheadding {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
@@ -28,5 +24,11 @@ body {
 	font-size: 3vw;	
 	}
 #about {
-	background-color: white;
+	background-color: #40566D;
+	color: white;
+	}
+#projects {
+	background: url(bg.jpg);
+	background-repeat: repeat;
+	color: white;
 	}
