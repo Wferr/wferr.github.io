@@ -4,8 +4,13 @@ body {
 	}
 .navbar-custom {
 	background-color: #0C1D2F;
+	border-color: #40566D;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2vw;
+	}
+.active {
+	background-color: #0C1D2F;
+	color: #0C1D2F;
 	}
 #Hheadding {
 	font-family: 'Montserrat', sans-serif;
@@ -31,10 +36,14 @@ body {
 	margin-bottom: 0px;
 	}
 #footer {
-	padding-top: 1%;
-	font-size: 1vw;
+	font-size: 1.2vw;
 	color: black;
-	padding: 25px 0;
+	padding: 1vw;
     background-color: #fff;
 	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
 	}
