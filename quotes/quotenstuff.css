@@ -1,21 +1,18 @@
 body {
 	background: url(bg/0.jpg);
     background-repeat: repeat;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lobster', sans-serif;
+	font-weight: 700;
+	color: white;
 	text-transform: uppercase;
+	text-align: center;
+	text-shadow:8px 4px 0px #000;
+	font-size: 2.5vw;
     }
-h1.navbar {
-	font-size: 3vw;
-	font-family: 'Lobster', sans-serif;
-	color: white;
-	padding-left: 70%;
-	margin-top: 0px;
-	background-color: grey;
-	}
-p.subnavbar {
-	font-family: 'Lobster', sans-serif;
-	color: white;
-	padding-left: 70%;
-	padding-top: 0px;
-	background-color: grey;
-	}
+	
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
