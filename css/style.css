@@ -1,49 +1,33 @@
 body {
-	background: url(bg.jpg);
-	background-repeat: repeat;
-	}
-.navbar-custom {
-	background-color: #0C1D2F;
-	border-color: #40566D;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 2vw;
-	}
-.active {
-	background-color: #0C1D2F;
-	color: #0C1D2F;
-	}
+    background:url(bg.jpg);
+    background-repeat:repeat
+}
+
+.navbar-inverse {
+    font-family:'Montserrat',sans-serif;
+    font-size:2vw
+}
+
 #Hheadding {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	color: white;
-	text-shadow: 4px 2px 0px black;
-	text-align: center;
-	}
-#Hheadding h1{
-	font-size: 3.5vw;
-	}
+    font-family:'Montserrat',sans-serif;
+    text-transform:uppercase;
+    color:#fff;
+    text-shadow:4px 2px 0 #000;
+    text-align:center
+}
+
+#Hheadding h1 {
+    font-size:3.5vw
+}
+
 #Hheadding h2 {
-	font-size: 3vw;	
-	}
-#about {
-	background-color: #40566D;
-	color: white;
-	}
-#projects {
-	background: url(bg.jpg);
-	background-repeat: repeat;
-	color: white;
-	margin-bottom: 0px;
-	}
+    font-size:3vw
+}
+
 #footer {
-	font-size: 1.2vw;
-	color: black;
-	padding: 1vw;
-    background-color: #fff;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	}
-h2 {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	}
+    font-size:1.2vw;
+    bottom:0;
+    position:fixed;
+    width:100%;
+    color:#fff
+}
