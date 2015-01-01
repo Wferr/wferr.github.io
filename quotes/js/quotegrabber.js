@@ -1,3 +1,7 @@
 $(document).ready(function () {
-	$('h1').html('ERROR GRABBING QUOTE LIST')
+    $.get('quotes.txt', function(quotes) {
+        var lines = quotes.split("\n");
+        var randLineNum = Math.floor(Math.random() * lines.length);
+        $('h1').html(lines[randLineNum]);
+    });
 });
