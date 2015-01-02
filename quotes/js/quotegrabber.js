@@ -10,15 +10,12 @@ $(document).ready(function () {
 
 function getQueryParams(qs) {
     qs = qs.split("+").join(" ");
-
-    var params = {}, tokens,
-        re = /[?&]?([^=]+)=([^&]*)/g;
-
-    while (tokens = re.exec(qs)) {
-        params[decodeURIComponent(tokens[1])]
-            = decodeURIComponent(tokens[2]);
+    var total = qs.split("?");
+    var params = {};
+    for(var i = 1; i < total.length; i++){
+        var temp = total[i].split("=");
+        params[decodeURIComponent(temp[0])] = decodeURIComponent(temp[1]);
     }
-
     return params;
 }
 
