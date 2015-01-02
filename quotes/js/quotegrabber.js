@@ -22,7 +22,7 @@ function getQueryParams(qs) {
 function getNum(numOfLines){
 	var temp = getQueryParams(document.location.search);
 	var num = Math.floor(Math.random() * numOfLines);
-	if(temp.length > 0){
+	if(temp.quote > 0){
 		num = temp.quote;
 	}
 	return num;
