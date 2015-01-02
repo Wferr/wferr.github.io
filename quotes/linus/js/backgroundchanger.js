@@ -1,3 +1,3 @@
 $(document).ready(function () {
-	$('body').css('background-image', 'url(bg/'+((Math.random() * 7) | 0)+'.jpg)')
+	$('body').css('background-image', 'url(bg/'+((Math.random() * 12) | 0)+'.jpg)')
 });
