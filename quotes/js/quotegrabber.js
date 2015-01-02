@@ -3,6 +3,6 @@ $(document).ready(function () {
         var lines = quotes.split("\n");
         var randLineNum = Math.floor(Math.random() * lines.length);
         $('h1').html(lines[randLineNum]);
-		$('#myDiv').html("<audio autoplay controls='controls'  src='http://translate.google.com/translate_tts?tl=en&q=' + 'hi' + '></audio>"); 
+		$('div').html("<audio autoplay controls='controls'  src='http://translate.google.com/translate_tts?tl=en&q=' + 'hi' + '></audio>"); 
     });
 });
