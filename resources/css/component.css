@@ -1,4 +1,7 @@
 /* Header */
+* {
+	text-decoration: none;
+}
 .large-header {
 	position: relative;
 	width: 100%;
