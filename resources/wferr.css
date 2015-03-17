@@ -1,3 +1,26 @@
 * {
   border-radius: 0 !important;
 }
+
+.row { 
+	margin-right: 0px !important; 
+}
+
+.share-page {
+    text-align: center;
+    background: #222;
+    color: #9D9D9D;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5 * $spacing-unit 0;
+
+    a {
+        font-weight: 700;
+        color: #fff;
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+        }
+    }
+}
