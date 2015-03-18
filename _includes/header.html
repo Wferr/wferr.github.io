@@ -1,15 +1,13 @@
-<header class="site-header">
+<header>
  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <ul class="nav navbar-nav">
-            {% for post in site.posts limit:5 %}
-              <li><a href="{{ post.url }}">{{ post.title}}</a></li>
-            {% endfor %}
-          <li><a href="/archive">Archive</a></li>
-      </ul>
+    <ul class="nav navbar-nav">
+      {% for post in site.posts limit:5 %}
+        <li><a href="{{ post.url }}">{{ post.title}}</a></li>
+      {% endfor %}
+        <li><a href="/archive">Archive</a></li>
+    </ul>
       <p class="navbar-text navbar-right"><a href="/feed.xml" class="navbar-link">RSS</a></p>
-    </div>
   </div>
 </nav>
 </header>
