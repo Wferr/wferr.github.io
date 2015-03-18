@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-  
-  <body>
-    {% include header.html %}
-      <div class="row">
-        <div class="col-md-5 col-md-offset-3">
-          {{ content }}
-          <hr>
-          <h3>{% include share.md %}<h3>
-          <hr>
-          {% include disqus.md %}
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+        <div class="row">
+            <div class="col-md-5 col-md-offset-3">
+                {{ content }}
+                <hr>
+                <h3>{% include share.md %}<h3>
+                <hr>
+                {% include disqus.md %}
+            </div>
         </div>
-      </div>
-    {% include footer.html %}
-  </body>
+        <hr>
+        {% include footer.html %}
+    </body>
 </html>
