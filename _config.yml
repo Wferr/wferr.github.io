@@ -3,3 +3,5 @@ title: Wferr
 description: Blog, Links, Life, whatever else wferr does..
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wferr.com" # the base hostname & protocol for your site
+gems:
+  - jekyll-sitemap
